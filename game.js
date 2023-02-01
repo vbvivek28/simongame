@@ -8,14 +8,13 @@ var start=false;
 //===============================================================
 
 $(document).keypress(gameCheck);
-$("body").click(gameCheck);
+$(document).click(gameCheck);
 function gameCheck(){
     if(!start){
         start=true;
         level=0;
         nextSequence();
-        $(".btn").click(handler);  
-        $(".btn").touch(handler);
+        $(".btn").click(handler); 
     }
    
 }
