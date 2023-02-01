@@ -1,0 +1,92 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: gray;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: rgb(159, 0, 0);
+}
+
+.green {
+  background-color: rgb(1, 113, 1);
+}
+
+.blue {
+  background-color:rgb(0, 102, 255);
+}
+
+.yellow {
+  background-color: rgb(202, 185, 57);
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: rgb(149, 148, 148);
+}
+
+.rel{
+
+  margin: 200px !important;
+  font-size: 40px;
+  display: inline-block;
+  height: 50px;
+  width: 220px;
+  border: 2px solid black;
+  border-radius: 5%;
+  font-weight:bold;
+  background-color: rgb(179, 179, 179);
+
+}
+
+.rel:hover{
+  background-color:rgb(72, 71, 71) ;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  
+}
+
+.btn:hover{
+  cursor: pointer;
+  
+}
+.red:hover{
+  background-color: rgb(255, 0, 0);
+}
+.green:hover {
+  background-color: rgb(30, 231, 33);
+}
+.blue:hover {
+  background-color: rgb(4, 0, 255);
+}
+.yellow:hover {
+  background-color: rgb(255, 234, 3);
+}
+
