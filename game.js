@@ -8,20 +8,7 @@ var start=false;
 //===============================================================
 
 $(document).keypress(gameCheck);
-
-function gameCheck(){
-    if(!start){
-        start=true;
-        level=0;
-        nextSequence();
-        $(".btn").click(handler);  
-        $(".btn").touch(handler);
-    }
-   
-}
-
 $(document).on("tap",gameCheck);
-
 function gameCheck(){
     if(!start){
         start=true;
@@ -32,6 +19,9 @@ function gameCheck(){
     }
    
 }
+
+
+
 
 //=================================================================
  
