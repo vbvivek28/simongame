@@ -20,7 +20,7 @@ function gameCheck(){
    
 }
 
-$(document).touch(gameCheck);
+$(document).on("tap",gameCheck);
 
 function gameCheck(){
     if(!start){
