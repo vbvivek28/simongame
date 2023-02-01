@@ -8,7 +8,7 @@ var start=false;
 //===============================================================
 
 $(document).keypress(gameCheck);
-$(document).on("tap",gameCheck);
+$("body").on("tap",gameCheck);
 function gameCheck(){
     if(!start){
         start=true;
